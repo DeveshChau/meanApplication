@@ -9,6 +9,7 @@ import { MatCardModule, MatInputModule, MatButtonModule, MatToolbarModule, MatEx
 import { HeaderComponent } from './header/header.component';
 import { PostListComponent } from './posts/post-list/post-list.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AppRouterModule } from './app.router';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
   ],
   imports: [
     BrowserModule,
+    AppRouterModule,
     FormsModule,
     BrowserAnimationsModule,
     MatCardModule,
